@@ -10,7 +10,7 @@ variable "region" {
 variable "profile" {
   description = "Profile stored in aws config or credentials file"
   type        = string
-  default = "~/.aws/credentials"
+  default = "~/.aws/config"
 }
 
 variable "cluster_version" {
