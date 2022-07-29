@@ -13,14 +13,14 @@ variable "region" {
 #   default = "~/.aws/config"
 # }
 
-variable "secret_key" {
-  description = "Profile stored in aws config or credentials file"
-  type        = string
-}
-variable "access_key" {
-  description = "Profile stored in aws config or credentials file"
-  type        = string
-}
+# variable "secret_key" {
+#   description = "Profile stored in aws config or credentials file"
+#   type        = string
+# }
+# variable "access_key" {
+#   description = "Profile stored in aws config or credentials file"
+#   type        = string
+# }
 
 variable "cluster_version" {
   description = "Kubernetes version to use for the EKS cluster."
