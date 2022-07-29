@@ -7,10 +7,19 @@ variable "region" {
   default = "us-east-2"
 }
 
-variable "profile" {
+# variable "profile" {
+#   description = "Profile stored in aws config or credentials file"
+#   type        = string
+#   default = "~/.aws/config"
+# }
+
+variable "secret_key" {
   description = "Profile stored in aws config or credentials file"
   type        = string
-  default = "~/.aws/config"
+}
+variable "access_key" {
+  description = "Profile stored in aws config or credentials file"
+  type        = string
 }
 
 variable "cluster_version" {
